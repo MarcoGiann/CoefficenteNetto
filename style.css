@@ -1,0 +1,220 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(assets/foodbg.jpg);
+    
+}
+
+
+nav ul {
+    
+   
+    display:inline-flex;
+    list-style-type:none;
+
+}
+
+nav ul li {
+    
+    
+   
+    justify-content: center;
+    display: flex;
+    height: 1px;
+    background-color: #dbc900;
+    width: 8vw;
+    padding: 20px 30px;
+    margin-right: 8vh;
+    margin-left: 8vh;
+}
+nav ul li a {
+    text-shadow: 2px 2px 2px rgb(117 113 113 / 26%);
+    display: block;
+    background-color: #dbc900;  
+    align-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+ 
+.ham {
+background-image: url(assets/hamburger-gourmet.jpg);
+width: fit-content;
+
+height: 600px;
+width:100%;
+background-repeat: no-repeat;
+}
+.imgtext {
+    display: flex;
+    flex-direction: column;
+    
+}
+.imgtext span,
+.imgtext h6 {
+    border: solid;
+    
+}
+.coebonta {
+    
+    display: flex;
+    
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgb(117 113 113 / 26%);
+    align-items: flex-start;
+   
+    align-content: space-around;
+}
+.coebonta span,
+.coebonta h6 {
+    border-bottom: solid;
+    background-color:#dbc900;
+}
+aside {
+   padding-left: 900px;
+    display: flex;
+
+}
+aside span {
+    border-bottom:solid
+}
+.menupiccolo {
+    flex-direction: column;
+    display: flex;
+    justify-content: right;
+    background-color: #dbc900;
+    padding: 15px 15px 25px 15px;
+    border: solid;
+}
+
+.iconsmenu {
+    display: inline-flex;
+    
+}
+.iconsmenu > ul {
+    padding-left: 20px;
+    display: inline-flex;
+    list-style-type: none;
+}
+.iconsmenu > ul > li {
+    flex-direction: column;
+    display: inline-flex;
+    padding:40px 30px 30px 30px;
+    background-color: whitesmoke;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    border: solid;
+    background-color: whitesmoke;
+    
+    
+}
+.icon {display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+
+}
+.hambu,
+.birre, 
+.Vini,
+.musica {
+    
+    font-size: 30px;
+    font-weight: 700;
+}
+
+article{
+    border-top: solid black;
+    border-bottom: solid black;
+    border-left: solid black;
+    align-items: center;
+    display: flex;
+    background-image: url(assets/burgerflower.jpg);
+    background-repeat: no-repeat;
+    width:  1029px;
+    height: 400px;  
+   
+    background-size: 100% 100%;
+    padding: 5%;
+    
+}
+.hambb {
+    border-top: solid black;
+    border-bottom: solid black;
+    border-right: solid black;
+    padding: 206px 150px  201px 200px ;
+    background-image: linear-gradient(to top left, #dbc900, whitesmoke);
+    margin-left: 1125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hambb > span {
+    border-style:dotted;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #dbc900;
+    text-shadow: 1px 1px 2px rgb(117 113 113 / 50%);
+}
+   .spanbutt {
+       font-size: 10px;
+   }
+  .butt {
+      
+      font-weight: 600;
+      border: solid;
+      background-color:#dbc900;
+  }
+    
+  .butt > a {
+      text-decoration: none;
+      color: black;
+  }
+  button:hover {
+      border-color: #dbc900;
+      color: #dbc900;
+      background-color: black;
+      transition: 0.3s;
+  }
+   button:hover a {
+      color: #dbc900;
+      transform: 0.3s;
+  }
+  footer {
+       display: flex;
+       justify-content: center;
+    -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(black), to(orangered), color-stop(0, black), color-stop(0, #dbc900)) 0 0 0 0;
+       color: rgb(0, 0, 0);
+       font-weight: 800;
+       
+      
+       
+        
+       
+        
+    }
+
+  
+   
+       
+    } 
+    .location .linea {
+        text-decoration: underline;
+ 
+
+    }
+   .media { 
+       display: flex;
+       justify-content: space-between;
+       flex-flow: wrap row;
+       border: solid;
+}
